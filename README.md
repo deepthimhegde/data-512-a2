@@ -1,4 +1,4 @@
-# Bias in Wikipedia acricle data 
+# Bias in Wikipedia article data 
 
 ## Goal 
 The goal of this project is to explore the concept of bias through data on Wikipedia articles - specifically, articles on political figures from a variety of countries.
