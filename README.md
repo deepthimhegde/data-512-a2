@@ -9,28 +9,28 @@ The goal of this project is to explore the concept of bias through data on Wikip
 
 ## Dataset Description
 
-## Input files
-### The Wikipedia Articles Dataset -
+### Input files
+#### The Wikipedia Articles Dataset -
 | Column | Description |
 |--------|-------------|
 | page | The title of the page |
 | country | The country of the politician |
 | rev_id | The revision ID |
 
-### Population Dataset -
+#### Population Dataset -
 | Column | Description |
 |--------|-------------|
 | Geography | Location (country or region) |
 | Population mid-2018 (millions) | Population of the geographical region in millions |
 
-## Output files 
-### Article Quality Data - This file contains the results collected from [ORES](https://www.mediawiki.org/wiki/ORES) 
+### Output files 
+#### Article Quality Data - This file contains the results collected from [ORES](https://www.mediawiki.org/wiki/ORES) 
 | Column | Description |
 |--------|-------------|
 | rev_id | The revision ID |
 | article_quality | One of "FA", "GA", "B", "C", "Start" or "Stub" as obtained by the ORES API |
 
-### Main Data for the analysis - 
+#### Main Data for the analysis - 
 | Column | Description |
 |--------|-------------|
 | page | The title of the page |
@@ -38,7 +38,7 @@ The goal of this project is to explore the concept of bias through data on Wikip
 | rev_id | The revision ID |
 | article_quality | Quality of the article as determined by ORES |
 
-### Final Data with all fields - 
+#### Final Data with all fields - 
 | Column | Description |
 |--------|-------------|
 | country | Unique world country |
@@ -48,8 +48,6 @@ The goal of this project is to explore the concept of bias through data on Wikip
 | coverage | The ratio of the total number of articles to the population of the country |
 | quality | The ratio of the number of high-quality articles to the total number of articles in the country |
 
-
-### 
 
 ## API Calls
 We use the [ORES](https://www.mediawiki.org/wiki/ORES) API to estimate the quality of an article. 
