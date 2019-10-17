@@ -118,9 +118,11 @@ Several countries have a quality measure of 0.0. On examining such cases a littl
 Wikipedia articles. However, what was common among them was that they weren't English speaking countries. This validates what we expected to find.
 For example, Monaco has a quality index of 0.0 and the percentage of English speakers in the country is merely 8.5% as opposed to Canada where it is 85%!
 
-This dataset can still be useful for an application where our main focus is on the English language as opposed to the metrics for the countires. 
+It's also interesting to note that certain non-english speaking countries feature at the top of the list. This be due to English authors and journalists referencing internationally popular politicians from those countries. Hence, the scores don't give us a streamlined intuition about the countries.  
+
+This dataset can however, still be used for applications where our main focus is on the English language as opposed to the metrics or the bigger world view of the countires. 
 
 ## Acknowledgement 
-Several Verbatim has been borrowed from [A2: Bias in data](https://wiki.communitydata.science/Human_Centered_Data_Science_(Fall_2019)/Assignments#A2:_Bias_in_data) 
+Several text has been stated verbatim from [A2: Bias in data](https://wiki.communitydata.science/Human_Centered_Data_Science_(Fall_2019)/Assignments#A2:_Bias_in_data) 
 
 
